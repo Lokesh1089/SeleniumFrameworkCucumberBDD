@@ -1,0 +1,1094 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22649870000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 727900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenarioOne(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Add to cart",
+        "description": "",
+        "id": "bookcart-application-add-to-cart-test;add-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1162063100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.cleanCart(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 452464600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 569111900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 191600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "Log into application with \"Kurapika\" and \"Chainuser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurapika\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chainuser123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "AddToCartSteps.logIntoApplicationWithAnd(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 400200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215698500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 25600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user search for a \"Help\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Help\"",
+                  "offset": 18
+                }
+              ],
+              "location": "AddToCartSteps.userSearchForA(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 40000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7844985900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 27300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click on  add to cart",
+            "match": {
+              "location": "AddToCartSteps.userClickOnAddToCart()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 53200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39563500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "cart should be updated",
+            "match": {
+              "location": "AddToCartSteps.cartShouldBeUpdated()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 40700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CleanCart"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17083394200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 78500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenarioOne(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Add to cart",
+        "description": "",
+        "id": "bookcart-application-add-to-cart-test;add-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1372898600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.cleanCart(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 330749700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 471126200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 17200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "Log into application with \"Kurapika\" and \"Chainuser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurapika\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chainuser123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "AddToCartSteps.logIntoApplicationWithAnd(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 40200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225676400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 15300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user search for a \"Slayer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Slayer\"",
+                  "offset": 18
+                }
+              ],
+              "location": "AddToCartSteps.userSearchForA(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 50800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8332773300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 20000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click on  add to cart",
+            "match": {
+              "location": "AddToCartSteps.userClickOnAddToCart()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 31300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23064100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 14500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "cart should be updated",
+            "match": {
+              "location": "AddToCartSteps.cartShouldBeUpdated()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 37800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CleanCart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71006554900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 74100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenarioOne(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Add to cart",
+        "description": "",
+        "id": "bookcart-application-add-to-cart-test;add-to-cart;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 805803100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.cleanCart(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 325599200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 451781400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 19400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "Log into application with \"TestUser1\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestUser1\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Test@123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "AddToCartSteps.logIntoApplicationWithAnd(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 46200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221956900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user search for a \"The Hookup\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Hookup\"",
+                  "offset": 18
+                }
+              ],
+              "location": "AddToCartSteps.userSearchForA(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 35900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8259347200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 13100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click on  add to cart",
+            "match": {
+              "location": "AddToCartSteps.userClickOnAddToCart()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 34600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25199900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 17500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "cart should be updated",
+            "match": {
+              "location": "AddToCartSteps.cartShouldBeUpdated()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 38700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CleanCart"
+          }
+        ]
+      }
+    ],
+    "name": "Bookcart application add to cart test",
+    "description": "",
+    "id": "bookcart-application-add-to-cart-test",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\features\\addToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18151458700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 70600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenarioOne(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login should be sucess",
+        "description": "",
+        "id": "bookcart-application-test;login-should-be-sucess",
+        "after": [
+          {
+            "result": {
+              "duration": 341409300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185322300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 17400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "click on Login button",
+            "match": {
+              "location": "LoginSteps.clickOnLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 49100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138455000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 18100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "enter the username as \"Kurapika\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurapika\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.enterTheUsernameAs(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 223700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140982700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 30000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "enter the password as \"Chainuser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chainuser123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.enterThePasswordAs(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 48200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63578800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 14200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user click on Login button",
+            "match": {
+              "location": "LoginSteps.userClickOnLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 36600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272837000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 10900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "login should be successful",
+            "match": {
+              "location": "LoginSteps.loginShouldBeSuccessful()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 84200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35973597600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 68500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.beforeScenarioOne(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login should fail",
+        "description": "",
+        "id": "bookcart-application-test;login-should-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 299145500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201913700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "click on Login button",
+            "match": {
+              "location": "LoginSteps.clickOnLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 175300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144563000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 12300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "enter the username as \"Kurapikaa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurapikaa\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.enterTheUsernameAs(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 35300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162335000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 9500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "enter the password as \"NotaChainuser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NotaChainuser123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.enterThePasswordAs(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 37100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68411400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 38000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "user click on Login button",
+            "match": {
+              "location": "LoginSteps.userClickOnLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 37100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145858400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 11500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.beforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "login should be failed",
+            "match": {
+              "location": "LoginSteps.loginShouldBeFailed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 44500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHook.afterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "But "
+          }
+        ]
+      }
+    ],
+    "name": "Bookcart application test",
+    "description": "",
+    "id": "bookcart-application-test",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\features\\login.feature",
+    "tags": []
+  }
+]
