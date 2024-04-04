@@ -9,6 +9,8 @@ import cucumber.api.java.en.When;
 import hooks.DriverInstances;
 
 public class LoginSteps extends DriverInstances{
+
+//Test login step
 //	WebDriver driver;
 //
 //	@Given("User should navigate to the bookcart application")
