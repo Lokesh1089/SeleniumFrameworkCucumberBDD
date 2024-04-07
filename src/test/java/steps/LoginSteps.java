@@ -10,7 +10,7 @@ import hooks.DriverInstances;
 
 public class LoginSteps extends DriverInstances{
 
-//Test login step
+//Test login step updating from central repository
 //	WebDriver driver;
 //
 //	@Given("User should navigate to the bookcart application")
