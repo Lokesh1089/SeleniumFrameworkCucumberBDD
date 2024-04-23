@@ -13,7 +13,8 @@ public class LoginSteps extends DriverInstances{
 
 //Test login step updating from local machine
 //	WebDriver driver;
-//
+// Adding new line in master - Updated
+// Adding new line in test branch 	
 //	@Given("User should navigate to the bookcart application")
 //	public void userShouldNavigateToTheBookcartApplication() {
 //		System.setProperty("webdriver.chrome.driver",
