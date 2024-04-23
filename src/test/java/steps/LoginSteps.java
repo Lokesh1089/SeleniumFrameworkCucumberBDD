@@ -25,8 +25,9 @@ public class LoginSteps extends DriverInstances{
 //		manage.timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 //		System.out.println(driver.getTitle());
 //
-//	}
-	//
+//	} Im from test branch
+	// 
+	
 
 	@Given("click on Login button")
 	public void clickOnLoginButton() {
