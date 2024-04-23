@@ -28,6 +28,7 @@ public class LoginSteps extends DriverInstances{
 //
 //	}
 	//
+	//Im from master
 
 	@Given("click on Login button")
 	public void clickOnLoginButton() {
